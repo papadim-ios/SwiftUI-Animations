@@ -22,6 +22,10 @@ struct ContentView: View {
                 NavigationLink(destination: PulsatingCircle()) {
                     ListContents(title: "Pulsating circle", imageNumber: 3)
                 }
+                
+                NavigationLink(destination: AnimatingBindings()) {
+                    ListContents(title: "Animating Bindings", imageNumber: 4)
+                }
             }
             .navigationBarTitle("Animations")
         }

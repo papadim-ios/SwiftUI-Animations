@@ -14,6 +14,7 @@
 		B75CB44629424DBB00E0CAA1 /* SimpleAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB44529424DBB00E0CAA1 /* SimpleAnimations.swift */; };
 		B75CB44829424FEC00E0CAA1 /* CustomizingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB44729424FEC00E0CAA1 /* CustomizingAnimations.swift */; };
 		B75CB44A29425B6800E0CAA1 /* PulsatingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB44929425B6800E0CAA1 /* PulsatingCircle.swift */; };
+		B7E47B6A294337AF0095D563 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */; };
 		B7F7A88F2943231D000DEE32 /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		B75CB44529424DBB00E0CAA1 /* SimpleAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimations.swift; sourceTree = "<group>"; };
 		B75CB44729424FEC00E0CAA1 /* CustomizingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations.swift; sourceTree = "<group>"; };
 		B75CB44929425B6800E0CAA1 /* PulsatingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingCircle.swift; sourceTree = "<group>"; };
+		B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				B75CB44729424FEC00E0CAA1 /* CustomizingAnimations.swift */,
 				B75CB44929425B6800E0CAA1 /* PulsatingCircle.swift */,
 				B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */,
+				B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				B75CB4372942467600E0CAA1 /* ContentView.swift in Sources */,
 				B7F7A88F2943231D000DEE32 /* AnimatingBindings.swift in Sources */,
 				B75CB44829424FEC00E0CAA1 /* CustomizingAnimations.swift in Sources */,
+				B7E47B6A294337AF0095D563 /* ExplicitAnimations.swift in Sources */,
 				B75CB44629424DBB00E0CAA1 /* SimpleAnimations.swift in Sources */,
 				B75CB4352942467600E0CAA1 /* AnimationsApp.swift in Sources */,
 			);
