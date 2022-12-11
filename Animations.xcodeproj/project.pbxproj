@@ -15,6 +15,8 @@
 		B75CB44829424FEC00E0CAA1 /* CustomizingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB44729424FEC00E0CAA1 /* CustomizingAnimations.swift */; };
 		B75CB44A29425B6800E0CAA1 /* PulsatingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB44929425B6800E0CAA1 /* PulsatingCircle.swift */; };
 		B7615E632945CF5C005C29E2 /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7615E622945CF5C005C29E2 /* AnimationStack.swift */; };
+		B7615E652945D183005C29E2 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7615E642945D183005C29E2 /* AnimatingGestures.swift */; };
+		B7615E692945DA85005C29E2 /* ShowingHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7615E682945DA85005C29E2 /* ShowingHidingViews.swift */; };
 		B7E47B6A294337AF0095D563 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */; };
 		B7F7A88F2943231D000DEE32 /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		B75CB44729424FEC00E0CAA1 /* CustomizingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations.swift; sourceTree = "<group>"; };
 		B75CB44929425B6800E0CAA1 /* PulsatingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingCircle.swift; sourceTree = "<group>"; };
 		B7615E622945CF5C005C29E2 /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		B7615E642945D183005C29E2 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
+		B7615E682945DA85005C29E2 /* ShowingHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingHidingViews.swift; sourceTree = "<group>"; };
 		B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,14 +89,32 @@
 		B75CB44B29425DA700E0CAA1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				B7615E662945D68D005C29E2 /* Basics */,
+				B7615E672945D695005C29E2 /* Advanced */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B7615E662945D68D005C29E2 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
 				B75CB44529424DBB00E0CAA1 /* SimpleAnimations.swift */,
 				B75CB44729424FEC00E0CAA1 /* CustomizingAnimations.swift */,
 				B75CB44929425B6800E0CAA1 /* PulsatingCircle.swift */,
 				B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */,
 				B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */,
-				B7615E622945CF5C005C29E2 /* AnimationStack.swift */,
 			);
-			path = Animations;
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		B7615E672945D695005C29E2 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				B7615E622945CF5C005C29E2 /* AnimationStack.swift */,
+				B7615E642945D183005C29E2 /* AnimatingGestures.swift */,
+				B7615E682945DA85005C29E2 /* ShowingHidingViews.swift */,
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +190,8 @@
 				B75CB44A29425B6800E0CAA1 /* PulsatingCircle.swift in Sources */,
 				B75CB4372942467600E0CAA1 /* ContentView.swift in Sources */,
 				B7F7A88F2943231D000DEE32 /* AnimatingBindings.swift in Sources */,
+				B7615E692945DA85005C29E2 /* ShowingHidingViews.swift in Sources */,
+				B7615E652945D183005C29E2 /* AnimatingGestures.swift in Sources */,
 				B75CB44829424FEC00E0CAA1 /* CustomizingAnimations.swift in Sources */,
 				B7E47B6A294337AF0095D563 /* ExplicitAnimations.swift in Sources */,
 				B7615E632945CF5C005C29E2 /* AnimationStack.swift in Sources */,
