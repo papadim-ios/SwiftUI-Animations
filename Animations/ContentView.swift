@@ -42,6 +42,10 @@ struct ContentView: View {
                 NavigationLink(destination: ShowingHidingViews()) {
                     ListContents(title: "Showing and Hiding Views", imageNumber: 8)
                 }
+                
+                NavigationLink(destination: CustomTransitions()) {
+                    ListContents(title: "Custom transitions using ViewModifier", imageNumber: 9)
+                }
             }
             .navigationBarTitle("Animations")
         }
