@@ -10,13 +10,13 @@ import SwiftUI
 // Building custom transitions using ViewModifier
 
 struct CornerRotateModifier: ViewModifier {
-    let amount: Double
-    let anchor: UnitPoint
+    let amount: Double      // How much rotation should be applied
+    let anchor: UnitPoint   // Where the rotation should take place
 
     func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
-            .clipped()
+            .clipped()      // Means that when the view rotates the parts that are lying outside its natural rectangle don’t get drawn.
     }
 }
 
