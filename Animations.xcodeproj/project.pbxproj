@@ -21,6 +21,7 @@
 		B7AC087329477FB100080A97 /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC087229477FB100080A97 /* AnimationsView.swift */; };
 		B7AC087529477FF800080A97 /* DrawingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC087429477FF800080A97 /* DrawingsView.swift */; };
 		B7AC0878294780CC00080A97 /* PathsAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC0877294780CC00080A97 /* PathsAndShapes.swift */; };
+		B7AC087A2947929F00080A97 /* CGAffineTransformAndEvenOddFills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC08792947929F00080A97 /* CGAffineTransformAndEvenOddFills.swift */; };
 		B7E47B6A294337AF0095D563 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */; };
 		B7F7A88F2943231D000DEE32 /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		B7AC087229477FB100080A97 /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		B7AC087429477FF800080A97 /* DrawingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingsView.swift; sourceTree = "<group>"; };
 		B7AC0877294780CC00080A97 /* PathsAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsAndShapes.swift; sourceTree = "<group>"; };
+		B7AC08792947929F00080A97 /* CGAffineTransformAndEvenOddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformAndEvenOddFills.swift; sourceTree = "<group>"; };
 		B7E47B69294337AF0095D563 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		B7F7A88E2943231D000DEE32 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +135,7 @@
 			children = (
 				B7AC087429477FF800080A97 /* DrawingsView.swift */,
 				B7AC0877294780CC00080A97 /* PathsAndShapes.swift */,
+				B7AC08792947929F00080A97 /* CGAffineTransformAndEvenOddFills.swift */,
 			);
 			path = Drawings;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				B75CB44829424FEC00E0CAA1 /* CustomizingAnimations.swift in Sources */,
 				B7AC087529477FF800080A97 /* DrawingsView.swift in Sources */,
 				B7E47B6A294337AF0095D563 /* ExplicitAnimations.swift in Sources */,
+				B7AC087A2947929F00080A97 /* CGAffineTransformAndEvenOddFills.swift in Sources */,
 				B7615E632945CF5C005C29E2 /* AnimationStack.swift in Sources */,
 				B75CB44629424DBB00E0CAA1 /* SimpleAnimations.swift in Sources */,
 				B75CB4352942467600E0CAA1 /* AnimationsApp.swift in Sources */,
