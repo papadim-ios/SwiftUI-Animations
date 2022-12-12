@@ -11,7 +11,7 @@ struct DrawingsView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: CustomPaths()) {
+                NavigationLink(destination: PathsAndShapes()) {
                     ListContents(title: "Custom Paths", imageNumber: 1)
                 }
                 
