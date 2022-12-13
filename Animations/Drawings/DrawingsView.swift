@@ -18,6 +18,10 @@ struct DrawingsView: View {
                 NavigationLink(destination: CGAffineTransformAndEvenOddFills()) {
                     ListContents(title: "CGAffineTransform and Even-odd fills", imageNumber: 2)
                 }
+                
+                NavigationLink(destination: MetalRendering()) {
+                    ListContents(title: "High performance rendering with Metal", imageNumber: 3)
+                }
             }
             .navigationBarTitle("Animations")
         }
