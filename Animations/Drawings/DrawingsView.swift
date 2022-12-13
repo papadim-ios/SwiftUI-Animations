@@ -22,6 +22,10 @@ struct DrawingsView: View {
                 NavigationLink(destination: MetalRendering()) {
                     ListContents(title: "High performance rendering with Metal", imageNumber: 3)
                 }
+                
+                NavigationLink(destination: AnimatingSimpleShapes()) {
+                    ListContents(title: "Animating Simple Shapes", imageNumber: 4)
+                }
             }
             .navigationBarTitle("Animations")
         }
