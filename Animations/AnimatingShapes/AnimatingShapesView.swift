@@ -13,10 +13,6 @@ struct AnimatingShapesView: View {
             NavigationLink(destination: AnimatingSimpleShapes()) {
                 ListContents(title: "Animating Simple Shapes", imageNumber: 1)
             }
-            
-            NavigationLink(destination: AnimatingComplexShapes()) {
-                ListContents(title: "Animating Complex Shapes", imageNumber: 2)
-            }
         }
         .navigationBarTitle("Animations")
     }
