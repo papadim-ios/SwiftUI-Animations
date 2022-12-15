@@ -9,18 +9,16 @@ import SwiftUI
 
 struct AnimatingShapesView: View {
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink(destination: AnimatingSimpleShapes()) {
-                    ListContents(title: "Animating Simple Shapes", imageNumber: 1)
-                }
-                
-                NavigationLink(destination: AnimatingComplexShapes()) {
-                    ListContents(title: "Animating Complex Shapes", imageNumber: 2)
-                }
+        List {
+            NavigationLink(destination: AnimatingSimpleShapes()) {
+                ListContents(title: "Animating Simple Shapes", imageNumber: 1)
             }
-            .navigationBarTitle("Animations")
+            
+            NavigationLink(destination: AnimatingComplexShapes()) {
+                ListContents(title: "Animating Complex Shapes", imageNumber: 2)
+            }
         }
+        .navigationBarTitle("Animations")
     }
 }
 

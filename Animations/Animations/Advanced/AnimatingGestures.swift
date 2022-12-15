@@ -9,7 +9,8 @@ import SwiftUI
 
 struct AnimatingGestures: View {
     @State private var dragAmount = CGSize.zero
-    let letters = Array("Hello, SwiftUI")
+    
+    let letters = Array("Hello SwiftUI")
     @State private var enabled = false
 
     var body: some View {
@@ -19,15 +20,16 @@ struct AnimatingGestures: View {
             .offset(dragAmount)
             .gesture(
                 DragGesture()
-                    .onChanged { dragAmount = $0.translation }  // translation of the drag, which tells us how far it’s moved from the start point
+                    .onChanged { dragAmount = $0.translation }  // tells us how far it’s moved from the start point
                     .onEnded { _ in
-                        withAnimation {                   // Explicit animation
+                        withAnimation {                         // Explicit animation
                             dragAmount = .zero
                         }
                     }
             )
-            .animation(.spring(), value: dragAmount)    // Implicit animation
+//            .animation(.spring(), value: dragAmount)            // Implicit animation
         
+        // Drag gestures + offset + delay
         HStack(spacing: 0) {
             ForEach(0 ..< letters.count, id: \.self) { num in
                 Text(String(letters[num]))

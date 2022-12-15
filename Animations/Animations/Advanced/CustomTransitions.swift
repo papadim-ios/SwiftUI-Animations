@@ -16,10 +16,11 @@ struct CornerRotateModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
-            .clipped()      // Means that when the view rotates the parts that are lying outside its natural rectangle don’t get drawn.
+            .clipped() // Means that when the view rotates the parts that are lying outside its natural rectangle don’t get drawn.
     }
 }
 
+// Wrap that in an extension to AnyTransition, making it rotate from -90 to 0 on its top leading corner
 extension AnyTransition {
     static var pivot: AnyTransition {
         .modifier(

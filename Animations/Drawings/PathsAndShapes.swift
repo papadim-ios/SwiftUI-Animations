@@ -16,6 +16,7 @@ import SwiftUI
     We no longer need to rely on fixed coordinates.
  */
 struct Triangle: Shape {
+    
     func path(in rect: CGRect) -> Path {
         var path = Path()
 
