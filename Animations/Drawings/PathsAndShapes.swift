@@ -29,36 +29,6 @@ struct Triangle: Shape {
     }
 }
 
-/*
-    - In SwiftUI 0 degrees is not straight upwards, but instead directly to the right.
- 
-    - Shapes measure their coordinates from the bottom-left corner rather than the top-left corner,
-        which means SwiftUI goes the other way around from one angle to the other.
- */
-struct Arc: Shape {
-    var startAngle: Angle
-    var endAngle: Angle
-    var clockwise: Bool
-    
-    var insetAmount = 0.0
-
-    func path(in rect: CGRect) -> Path {
-        let rotationAdjustment = Angle.degrees(90)
-        let modifiedStart = startAngle - rotationAdjustment
-        let modifiedEnd = endAngle - rotationAdjustment
-        
-        var path = Path()
-
-        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY),
-                    radius: rect.width / 2 - insetAmount,
-                    startAngle: modifiedStart,
-                    endAngle: modifiedEnd,
-                    clockwise: !clockwise)
-
-        return path
-    }
-}
-
 struct PathsAndShapes: View {
     var body: some View {
         
@@ -76,10 +46,6 @@ struct PathsAndShapes: View {
         Triangle()
 //            .fill(.red)
             .stroke(.red, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
-            .frame(width: 300, height: 300)
-        
-        Arc(startAngle: .degrees(0), endAngle: .degrees(110), clockwise: true)
-            .stroke(.blue, lineWidth: 10)
             .frame(width: 300, height: 300)
     }
 }

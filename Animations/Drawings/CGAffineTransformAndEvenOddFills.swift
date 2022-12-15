@@ -8,13 +8,13 @@
 import SwiftUI
 
 /*
-    Note: CGAffineTransform measures angles in radians rather than degrees!
- 
     CGAffineTransform:
     Describes how a path or view should be rotated, scaled, or sheared.
  
     Even-odd fills:
     Allow us to control how overlapping shapes should be rendered.
+ 
+    Note: CGAffineTransform measures angles in radians rather than degrees!
  */
 
 struct Flower: Shape {
@@ -46,7 +46,7 @@ struct Flower: Shape {
             path.addPath(rotatedPetal)
         }
 
-        // now send the main path back
+        // send the main path back
         return path
     }
 }
