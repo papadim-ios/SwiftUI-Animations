@@ -18,6 +18,10 @@ struct ContentView: View {
                 NavigationLink(destination: DrawingsView()) {
                     ListContents(title: "Drawings", imageNumber: 2)
                 }
+                
+                NavigationLink(destination: AnimatingShapesView()) {
+                    ListContents(title: "Animating Shapes", imageNumber: 3)
+                }
             }
             .navigationBarTitle("Animations")
         }
