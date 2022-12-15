@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-// https://www.hackingwithswift.com/books/ios-swiftui/creating-explicit-animations
-
 struct ExplicitAnimations: View {
     @State private var animationAmount = 0.0
 

@@ -36,6 +36,7 @@ struct CustomizingAnimations: View {
         .scaleEffect(animationAmount2)
         .animation(.easeOut(duration: 2.0), value: animationAmount2)
         
+        // Animation with delay
         Button("3") {
             animationAmount3 += 1
         }
