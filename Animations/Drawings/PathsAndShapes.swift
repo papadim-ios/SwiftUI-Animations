@@ -13,7 +13,7 @@ import SwiftUI
  
     This will still create and return a path just like using a raw path directly,
     but because we’re handed the size the shape will be used at we know exactly how big to draw our path.
-    We no longer need to rely on fixed coordinates.
+    We no longer need to rely on fixed coordinates!
  */
 struct Triangle: Shape {
     
@@ -61,17 +61,17 @@ struct Arc: Shape {
 
 struct PathsAndShapes: View {
     var body: some View {
+        
+        // Fixed path(using absolute coordinates)
         Path { path in
-            // Fixed paths(using absolute coordinates)!
             path.move(to: CGPoint(x: 200, y: 100))
             path.addLine(to: CGPoint(x: 100, y: 300))
             path.addLine(to: CGPoint(x: 300, y: 300))
             path.addLine(to: CGPoint(x: 200, y: 100))
 //            path.closeSubpath()
         }
-//        .fill(.blue)
 //        .stroke(.blue, lineWidth: 10)
-        .stroke(.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
+//        .stroke(.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
         
         Triangle()
 //            .fill(.red)
